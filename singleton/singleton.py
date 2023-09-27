@@ -36,8 +36,7 @@ def player1():
     print(f'Factory do player1: {singletonMonsterFactory}')
     print(f'Contagem de monstros: {singletonMonsterFactory.monsterCounter}')
 
-    # monsterToSpawn = MonsterChooser(level, biome, position, hp)
-    # Return a list of monsters to spawn in str form 
+    # Lista gerada por lógica do jogo
     monsterToSpawn = ['Creeper', 'Enderman', 'Skeleton', 'Zombie', 'Creeper', 'Spider']
     
     monstersSpawned = []
@@ -57,8 +56,7 @@ def player2():
     print(f'Factory do player2: {singletonMonsterFactory}')
     print(f'Contagem de monstros: {singletonMonsterFactory.monsterCounter}')
 
-    # monsterToSpawn = MonsterChooser(level, biome, position, hp)
-    # Return a list of monsters to spawn in str form 
+    # Lista gerada por lógica do jogo 
     monsterToSpawn = ['Enderman', 'Creeper', 'Skeleton', 'Zombie', 'Creeper', 'Enderman', 'Skeleton']
     
     monstersSpawned = []
