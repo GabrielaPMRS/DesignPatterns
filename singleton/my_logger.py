@@ -8,7 +8,10 @@ class MyLogger:
 
             print("Logger new")
             cls._logger = logging.getLogger("logger_name")
+
+            # Setar o nível mais baixo do logger (DEBUG, INFO, WARNING, ERROR, CRITICAL)
             cls._logger.setLevel(logging.DEBUG)
+            
             formatter = logging.Formatter(
                 '%(asctime)s \t [%(levelname)s | %(filename)s:%(lineno)s] > %(message)s')
 
