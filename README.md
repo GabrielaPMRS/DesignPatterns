@@ -2,7 +2,7 @@
 ## Referente à avaliação AB2 da disciplina de Projeto de Software da Universidade Federal de Alagoas.
 
 
-Padões Implementados:
+Padões Criacionais Implementados:
 - Builder
 - Singleton
 

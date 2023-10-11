@@ -25,6 +25,8 @@ class MyLogger:
 
 if __name__ == "__main__":
     logger1 = MyLogger()
+    print(logger1)
     logger1.info("Hello, Logger")
     logger2 = MyLogger()
+    print(logger2)
     logger2.warning("bug occured")
