@@ -8,5 +8,7 @@ Padões Criacionais Implementados:
 
 
 Professor: Baldoino Fonseca
+
 Período: 2023.1
+
 Aluna: Gabriela Pontes de Miranda Ramos Soares
